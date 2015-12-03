@@ -1,1 +1,72 @@
-
+<!DOCTYPE>
+<html>
+<head></head>
+<body>
+	<form action = "send.php" method = "POST">
+		<table>
+			<tr>
+				<td><b>What kind of car would you like to buy?</b></td>
+			</tr>
+			
+			<tr>
+				<td><br>&emsp;&emsp;&emsp;<input type = "radio" name = "car" value = "Proton" checked> Proton
+					<input type = "radio" name = "car" value = "Honda"> Honda
+					<input type = "radio" name = "car" value = "Ferrari"> Ferrari
+					<input type = "radio" name = "car" value = "Ford"> Ford
+				<br></td>
+			</tr>
+			
+			<tr>
+				<td><br><b>What colour do you want on your car?</b></td>
+			</tr>
+			
+			<tr>
+				<td><br>&emsp;&emsp;&emsp;<select name = "color">
+					<option value = "White">White</option>
+					<option value = "Red">Red</option>
+					<option value = "Black" selected>Black</option>
+					<option value = "Blue">Blue</option>
+				</select>
+					Other:<input type = "text" name = "color">
+				</td>
+			</tr>
+		
+			<tr>
+				<td><br><b>Enter your preferred car:</b></td>
+			</tr>
+			
+			<tr>
+				<td><br>&emsp;&emsp;&emsp;<textarea name ="..." cols=50 rows=5></textarea></td>
+			</tr>
+		
+			<tr>
+				<td><br><b>Tell us how to get in touch with you:</b></td>
+			</tr>
+			
+			<tr>
+				<td><br>&emsp;&emsp;Name: <input type = "text" name = "name"></td>
+			</tr>
+			
+			<tr>
+				<td>&emsp;&emsp;Email: <input type = "email" name = "email"></td>
+			</tr>
+			
+			<tr>
+				<td>&emsp;&emsp;Tel: &emsp;<input type = "text" name = "tel"></td>
+			</tr>
+			
+			<tr>
+				<td>&emsp;&emsp;FAX: &nbsp;<input type = "text" name = "fax"></td>
+			</tr>
+				
+			<tr>
+				<td><br>&emsp;&emsp;<input type="checkbox" name="opt" value="choice">Please contact me as soon as possible regarding this matter.</td>
+			</tr>
+			
+			<tr>
+				<td><br><input type = "submit" value = "Send"> <input type = "reset" value = "Clear"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
